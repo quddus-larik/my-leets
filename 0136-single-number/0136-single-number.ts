@@ -1,8 +1,8 @@
 function singleNumber(nums: number[]): number {
     let temp: number = 0;
 
-    for(const num of nums){
-        temp ^= num
+    for(let i = 0; i <= nums.length; i++){
+        temp ^= nums[i]
     }
 
     return temp;
